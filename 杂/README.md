@@ -33,3 +33,5 @@
 # [腾讯/滴滴/阿里/美团](https://github.com/sunyongjian/blog/issues/32/#comment)
 
 # [技术博客地址/js/react](https://github.com/sunyongjian/blog/#comment)
+
+# [超详细的前端学习图文教程。从零开始学前端，做一个 web 全栈工程师](https://github.com/smyhvae/Web)
