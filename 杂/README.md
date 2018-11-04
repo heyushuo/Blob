@@ -34,4 +34,6 @@
 
 ## [技术博客地址/js/react](https://github.com/sunyongjian/blog/#comment)
 
+## [冴羽写博客/js/react](https://github.com/mqyqingfeng/Blog)
+
 ## [超详细的前端学习图文教程。从零开始学前端，做一个 web 全栈工程师](https://github.com/smyhvae/Web)
