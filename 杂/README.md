@@ -39,3 +39,5 @@
 ## [超详细的前端学习图文教程。从零开始学前端，做一个 web 全栈工程师](https://github.com/smyhvae/Web)
 
 ## [面试图谱](https://yuchengkai.cn/docs/zh/frontend/)
+
+## [年终回顾，为你汇总一份「前端技术清单](https://juejin.im/post/5bdfb387e51d452c8e0aa902?utm_source=gold_browser_extension)
