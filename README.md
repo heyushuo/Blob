@@ -4,6 +4,8 @@
 
 **2018 年 11 月 12 - 2018 年 11 月 18 日**
 
+[6.JavaScript 之原型链继承&注意点和缺点](https://github.com/heyushuo/Blob/blob/master/JavaScript/6.JavaScript%E4%B9%8B%E5%8E%9F%E5%9E%8B%E9%93%BE%E7%BB%A7%E6%89%BF%26%E6%B3%A8%E6%84%8F%E7%82%B9%E5%92%8C%E7%BC%BA%E7%82%B9.md)
+
 [5.Javascript 之闭包以及闭包实例和常见面试题](https://github.com/heyushuo/Blob/blob/master/JavaScript/5.Javascript%E4%B9%8B%E9%97%AD%E5%8C%85%E4%BB%A5%E5%8F%8A%E9%97%AD%E5%8C%85%E5%AE%9E%E4%BE%8B%E5%92%8C%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
 **2018 年 11 月 5 - 2018 年 11 月 11 日**
