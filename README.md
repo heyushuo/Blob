@@ -4,6 +4,8 @@
 
 **2018 年 11 月 19 - 2018 年 11 月 25 日**
 
+[8.JavaScript 之原型式继承&寄生式继承和寄生组合式继承以及优缺点](https://github.com/heyushuo/Blob/blob/master/JavaScript/8.JavaScript%E4%B9%8B%E5%8E%9F%E5%9E%8B%E5%BC%8F%E7%BB%A7%E6%89%BF%26%E5%AF%84%E7%94%9F%E5%BC%8F%E7%BB%A7%E6%89%BF%E5%92%8C%E5%AF%84%E7%94%9F%E7%BB%84%E5%90%88%E5%BC%8F%E7%BB%A7%E6%89%BF%E4%BB%A5%E5%8F%8A%E4%BC%98%E7%BC%BA%E7%82%B9.md)
+
 [7.JavaScript 之构造函数继承和组合继承的优缺点](https://github.com/heyushuo/Blob/blob/master/JavaScript/7.JavaScript%E4%B9%8B%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E7%BB%A7%E6%89%BF%E5%92%8C%E7%BB%84%E5%90%88%E7%BB%A7%E6%89%BF%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9.md)
 
 **2018 年 11 月 12 - 2018 年 11 月 18 日**
