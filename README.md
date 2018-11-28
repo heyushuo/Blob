@@ -2,6 +2,10 @@
 
 # 每周至少两篇博客文章
 
+**2018 年 11 月 26 - 2018 年 11 月 30 日**
+
+[9.ES6 之 class 的基础用法和 class 的继承](https://github.com/heyushuo/Blob/blob/master/JavaScript/9.ES6%E4%B9%8Bclass%E7%9A%84%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95%E5%92%8Cclass%E7%9A%84%E7%BB%A7%E6%89%BF.md)
+
 **2018 年 11 月 19 - 2018 年 11 月 25 日**
 
 [8.JavaScript 之原型式继承&寄生式继承和寄生组合式继承以及优缺点](https://github.com/heyushuo/Blob/blob/master/JavaScript/8.JavaScript%E4%B9%8B%E5%8E%9F%E5%9E%8B%E5%BC%8F%E7%BB%A7%E6%89%BF%26%E5%AF%84%E7%94%9F%E5%BC%8F%E7%BB%A7%E6%89%BF%E5%92%8C%E5%AF%84%E7%94%9F%E7%BB%84%E5%90%88%E5%BC%8F%E7%BB%A7%E6%89%BF%E4%BB%A5%E5%8F%8A%E4%BC%98%E7%BC%BA%E7%82%B9.md)
