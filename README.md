@@ -4,6 +4,8 @@
 
 **2018 年 11 月 26 - 2018 年 11 月 30 日**
 
+[10.如何将自己的 vue 组件发布为 npm 包](https://github.com/heyushuo/Blob/blob/master/JavaScript/10.%E5%A6%82%E4%BD%95%E5%B0%86%E8%87%AA%E5%B7%B1%E7%9A%84vue%E7%BB%84%E4%BB%B6%E5%8F%91%E5%B8%83%E4%B8%BAnpm%E5%8C%85.md)
+
 [9.ES6 之 class 的基础用法和 class 的继承](https://github.com/heyushuo/Blob/blob/master/JavaScript/9.ES6%E4%B9%8Bclass%E7%9A%84%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95%E5%92%8Cclass%E7%9A%84%E7%BB%A7%E6%89%BF.md)
 
 **2018 年 11 月 19 - 2018 年 11 月 25 日**
