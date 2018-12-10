@@ -4,6 +4,8 @@
 
 **2018 年 11 月 03 - 2018 年 11 月 09 日**
 
+公司海南年会一周
+
 **2018 年 11 月 26 - 2018 年 12 月 02 日**
 
 [10.如何将自己的 vue 组件发布为 npm 包](https://github.com/heyushuo/Blob/blob/master/JavaScript/10.%E5%A6%82%E4%BD%95%E5%B0%86%E8%87%AA%E5%B7%B1%E7%9A%84vue%E7%BB%84%E4%BB%B6%E5%8F%91%E5%B8%83%E4%B8%BAnpm%E5%8C%85.md)
