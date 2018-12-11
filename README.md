@@ -2,6 +2,10 @@
 
 # 每周至少两篇博客文章
 
+**2018 年 11 月 10 - 2018 年 11 月 16 日**
+
+[11.Javascript 之浅拷贝和深拷贝(assign&create&concat&slice)](<https://github.com/heyushuo/Blob/blob/master/JavaScript/11.Javascript%E4%B9%8B%E6%B5%85%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B7%B1%E6%8B%B7%E8%B4%9D(assign%26create%26concat%26slice).md>)
+
 **2018 年 11 月 03 - 2018 年 11 月 09 日**
 
 公司海南年会一周
