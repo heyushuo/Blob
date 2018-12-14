@@ -4,6 +4,8 @@
 
 **2018 年 11 月 10 - 2018 年 11 月 16 日**
 
+[12.Javascript 之数组常用方法以及返回值](https://github.com/heyushuo/Blob/blob/master/JavaScript/12.Javascript%E4%B9%8B%E6%95%B0%E7%BB%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8A%E8%BF%94%E5%9B%9E%E5%80%BC.md)
+
 [11.Javascript 之浅拷贝和深拷贝(assign&create&concat&slice)](<https://github.com/heyushuo/Blob/blob/master/JavaScript/11.Javascript%E4%B9%8B%E6%B5%85%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B7%B1%E6%8B%B7%E8%B4%9D(assign%26create%26concat%26slice).md>)
 
 **2018 年 11 月 03 - 2018 年 11 月 09 日**
