@@ -2,7 +2,11 @@
 
 # 每周至少两篇博客文章
 
-**2018 年 11 月 10 - 2018 年 11 月 16 日**
+**2018 年 12 月 17 - 2018 年 12 月 23 日**
+
+[14.Javascript 之数组去重](https://github.com/heyushuo/Blob/blob/master/JavaScript/14.Javascript%E4%B9%8B%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D.md)
+
+**2018 年 12 月 10 - 2018 年 12 月 16 日**
 
 [13.ES6 新增数组的方法](https://github.com/heyushuo/Blob/blob/master/JavaScript/13.ES6%E6%96%B0%E5%A2%9E%E6%95%B0%E7%BB%84%E7%9A%84%E6%96%B9%E6%B3%95.md)
 
@@ -10,7 +14,7 @@
 
 [11.Javascript 之浅拷贝和深拷贝(assign&create&concat&slice)](<https://github.com/heyushuo/Blob/blob/master/JavaScript/11.Javascript%E4%B9%8B%E6%B5%85%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B7%B1%E6%8B%B7%E8%B4%9D(assign%26create%26concat%26slice).md>)
 
-**2018 年 11 月 03 - 2018 年 11 月 09 日**
+**2018 年 12 月 03 - 2018 年 12 月 09 日**
 
 公司海南年会一周
 
