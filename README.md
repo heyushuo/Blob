@@ -6,9 +6,9 @@
 
 [14.Javascript 之数组去重](https://github.com/heyushuo/Blob/blob/master/JavaScript/14.Javascript%E4%B9%8B%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D.md)
 
-**2018 年 12 月 10 - 2018 年 12 月 16 日**
-
 [13.ES6 新增数组的方法](https://github.com/heyushuo/Blob/blob/master/JavaScript/13.ES6%E6%96%B0%E5%A2%9E%E6%95%B0%E7%BB%84%E7%9A%84%E6%96%B9%E6%B3%95.md)
+
+**2018 年 12 月 10 - 2018 年 12 月 16 日**
 
 [12.Javascript 之数组常用方法以及返回值](https://github.com/heyushuo/Blob/blob/master/JavaScript/12.Javascript%E4%B9%8B%E6%95%B0%E7%BB%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8A%E8%BF%94%E5%9B%9E%E5%80%BC.md)
 
