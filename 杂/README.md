@@ -1,8 +1,10 @@
+## [腾讯前端面试篇和详细题解（一）](https://mp.weixin.qq.com/s?__biz=MzU3NjczNDk2MA==&mid=2247483937&idx=1&sn=cb22170b1111ca496040785826293f25&chksm=fd0e11beca7998a89afbcbbcd0d1e554ee8d78fce3a3e60b37269af987f5d1812c8af80d6cfa&mpshare=1&scene=1&srcid=#rd)
+
 ## [面试资源汇总](https://github.com/webproblem/learning-article/blob/master/%E9%9D%A2%E8%AF%95%E8%B5%84%E6%BA%90.md)
 
-## [大厂的 532 道面试题知识点笔记](https://segmentfault.com/a/1190000016511190 "大厂的532道面试题知识点笔记")
+## [大厂的 532 道面试题知识点笔记](https://segmentfault.com/a/1190000016511190 '大厂的532道面试题知识点笔记')
 
-## [前端面试题整理（定期更新）](https://segmentfault.com/a/1190000016504891 "前端面试题整理（定期更新）")
+## [前端面试题整理（定期更新）](https://segmentfault.com/a/1190000016504891 '前端面试题整理（定期更新）')
 
 ## [JavaScript 数组去重（12 种方法，史上最全）](https://segmentfault.com/a/1190000016418021)
 
