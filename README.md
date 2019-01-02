@@ -2,6 +2,12 @@
 
 # 每周至少两篇博客文章
 
+**2018 年 12 月 24 - 2018 年 12 月 30 日**
+
+[16.Javascript 之防抖动和节流以及使用场景](https://github.com/heyushuo/Blob/blob/master/JavaScript/16.Javascript%E4%B9%8B%E9%98%B2%E6%8A%96%E5%8A%A8%E5%92%8C%E8%8A%82%E6%B5%81%E4%BB%A5%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF.md)
+
+[15.Javascript 之数组的 reduce 详解和方法的应用](https://github.com/heyushuo/Blob/blob/master/JavaScript/15.Javascript%E4%B9%8B%E6%95%B0%E7%BB%84%E7%9A%84reduce%E8%AF%A6%E8%A7%A3%E5%92%8C%E6%96%B9%E6%B3%95%E7%9A%84%E5%BA%94%E7%94%A8.md)
+
 **2018 年 12 月 17 - 2018 年 12 月 23 日**
 
 [14.Javascript 之数组去重](https://github.com/heyushuo/Blob/blob/master/JavaScript/14.Javascript%E4%B9%8B%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D.md)
