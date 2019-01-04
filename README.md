@@ -4,6 +4,8 @@
 
 **2018 年 12 月 31 - 2018 年 1 月 6 日**
 
+[17.vue 项目请求接口区分开发环境和生产环境下测试域名和正式域名](https://github.com/heyushuo/Blob/blob/master/JavaScript/10.%E5%A6%82%E4%BD%95%E5%B0%86%E8%87%AA%E5%B7%B1%E7%9A%84vue%E7%BB%84%E4%BB%B6%E5%8F%91%E5%B8%83%E4%B8%BAnpm%E5%8C%85.md)
+
 **2018 年 12 月 24 - 2018 年 12 月 30 日**
 
 [16.Javascript 之防抖动和节流以及使用场景](https://github.com/heyushuo/Blob/blob/master/JavaScript/16.Javascript%E4%B9%8B%E9%98%B2%E6%8A%96%E5%8A%A8%E5%92%8C%E8%8A%82%E6%B5%81%E4%BB%A5%E5%8F%8A%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF.md)
