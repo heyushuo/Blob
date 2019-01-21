@@ -1,6 +1,6 @@
 # 日常博客点滴
 
-# 每周至少两篇博客文章
+[19.JavaSript 之数据类型判断](https://github.com/heyushuo/Blob/blob/master/JavaScript/19.JavaSript%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD.md)
 
 **2018 年 12 月 31 - 2018 年 1 月 6 日**
 
