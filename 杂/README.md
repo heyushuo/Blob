@@ -53,3 +53,5 @@
 ## [面试图谱](https://yuchengkai.cn/docs/zh/frontend/)
 
 ## [年终回顾，为你汇总一份「前端技术清单](https://juejin.im/post/5bdfb387e51d452c8e0aa902?utm_source=gold_browser_extension)
+
+## [常见 react 面试题](https://mp.weixin.qq.com/s?__biz=Mzg5MDAyNjIxOQ==&mid=2247483941&idx=1&sn=11ac78fff5c81fb16eae0cce6e3bda18&chksm=cfe3a3a1f8942ab75dc02acc11b5215d844314ca0faa9804dd0cdf9e96e6ef84b41390c2c251&mpshare=1&scene=1&srcid=0121ovTPROLHz2HWtLJzPTbv#rd)
