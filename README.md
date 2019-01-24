@@ -1,5 +1,7 @@
 # 日常博客点滴
 
+[20.[译]编写函数式的 JavaScript 实用指南](https://github.com/heyushuo/Blob/blob/master/JavaScript/20.%5B%E8%AF%91%5D%E7%BC%96%E5%86%99%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%20JavaScript%20%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97.md)
+
 [19.JavaSript 之数据类型判断](https://github.com/heyushuo/Blob/blob/master/JavaScript/19.JavaSript%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD.md)
 
 **2018 年 12 月 31 - 2018 年 1 月 6 日**
