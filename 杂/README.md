@@ -1,3 +1,5 @@
+## [七年切图仔如何面试大厂 web 前端？（沟通软技能总结）](https://juejin.im/post/5b984950f265da0afc2be3b)
+
 ## [面试图谱讲解](https://yuchengkai.cn/docs/frontend/)
 
 ## [面试图谱搜集](https://mountain-buzhou.github.io/Interview-Book/guide/)
