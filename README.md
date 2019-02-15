@@ -1,5 +1,7 @@
 # 日常博客点滴
 
+[23.new 对象过程以及手写实现 new 操作](https://github.com/heyushuo/Blob/blob/master/JavaScript/23.new%E5%AF%B9%E8%B1%A1%E8%BF%87%E7%A8%8B%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%86%99%E5%AE%9E%E7%8E%B0new%E6%93%8D%E4%BD%9C.md)
+
 [22.强制类型转换-笔记(你不知道的 JavaScript 中卷)](<https://github.com/heyushuo/Blob/blob/master/JavaScript/22.%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2-%E7%AC%94%E8%AE%B0(%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript%E4%B8%AD%E5%8D%B7).md>)
 
 [21.手写实现 call,apply,bind](https://github.com/heyushuo/Blob/blob/master/JavaScript/21.%E6%89%8B%E5%86%99%E5%AE%9E%E7%8E%B0call%2Capply%2Cbind.md)
