@@ -1,5 +1,7 @@
 # 日常博客点滴
 
+[24.Vue 实现跑马灯效果以及封装为组件发布](https://github.com/heyushuo/Blob/blob/master/JavaScript/24.Vue%E5%AE%9E%E7%8E%B0%E8%B7%91%E9%A9%AC%E7%81%AF%E6%95%88%E6%9E%9C%E4%BB%A5%E5%8F%8A%E5%B0%81%E8%A3%85%E4%B8%BA%E7%BB%84%E4%BB%B6%E5%8F%91%E5%B8%83.md)
+
 [23.new 对象过程以及手写实现 new 操作](https://github.com/heyushuo/Blob/blob/master/JavaScript/23.new%E5%AF%B9%E8%B1%A1%E8%BF%87%E7%A8%8B%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%86%99%E5%AE%9E%E7%8E%B0new%E6%93%8D%E4%BD%9C.md)
 
 [22.强制类型转换-笔记(你不知道的 JavaScript 中卷)](<https://github.com/heyushuo/Blob/blob/master/JavaScript/22.%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2-%E7%AC%94%E8%AE%B0(%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript%E4%B8%AD%E5%8D%B7).md>)
