@@ -1,3 +1,5 @@
+## [【译】面试 30 秒 ](https://juejin.im/post/5c9243f96fb9a070ce31ab46)
+
 ## [9 月，水了几个大中厂前端面试的一些总结分享 ](https://juejin.im/post/5b9267b1e51d450e7579af94)
 
 ## [2018 前端面试总结，看完弄懂，工资少说加 3K](https://juejin.im/post/5b94d8965188255c5a0cdc02)
