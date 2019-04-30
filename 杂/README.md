@@ -1,3 +1,5 @@
+### [朋友面试总结](https://note.youdao.com/ynoteshare1/index.html?id=9d46d3a5c9ff150fbabac655ffc83e8a&type=note)
+
 ### [阿里前端社招面试总结](https://juejin.im/post/5c90f573e51d450a7d7dfc75)
 
 ## [【译】面试 30 秒 ](https://juejin.im/post/5c9243f96fb9a070ce31ab46)
@@ -20,9 +22,9 @@
 
 ## [面试资源汇总](https://github.com/webproblem/learning-article/blob/master/%E9%9D%A2%E8%AF%95%E8%B5%84%E6%BA%90.md)
 
-## [大厂的 532 道面试题知识点笔记](https://segmentfault.com/a/1190000016511190 '大厂的532道面试题知识点笔记')
+## [大厂的 532 道面试题知识点笔记](https://segmentfault.com/a/1190000016511190 "大厂的532道面试题知识点笔记")
 
-## [前端面试题整理（定期更新）](https://segmentfault.com/a/1190000016504891 '前端面试题整理（定期更新）')
+## [前端面试题整理（定期更新）](https://segmentfault.com/a/1190000016504891 "前端面试题整理（定期更新）")
 
 ## [JavaScript 数组去重（12 种方法，史上最全）](https://segmentfault.com/a/1190000016418021)
 
@@ -88,9 +90,9 @@
 
 ## [面试资源汇总](https://github.com/webproblem/learning-article/blob/master/%E9%9D%A2%E8%AF%95%E8%B5%84%E6%BA%90.md)
 
-## [大厂的 532 道面试题知识点笔记](https://segmentfault.com/a/1190000016511190 '大厂的532道面试题知识点笔记')
+## [大厂的 532 道面试题知识点笔记](https://segmentfault.com/a/1190000016511190 "大厂的532道面试题知识点笔记")
 
-## [前端面试题整理（定期更新）](https://segmentfault.com/a/1190000016504891 '前端面试题整理（定期更新）')
+## [前端面试题整理（定期更新）](https://segmentfault.com/a/1190000016504891 "前端面试题整理（定期更新）")
 
 ## [JavaScript 数组去重（12 种方法，史上最全）](https://segmentfault.com/a/1190000016418021)
 
