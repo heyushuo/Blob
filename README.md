@@ -1,5 +1,7 @@
 # 日常博客点滴
 
+[26.JavaScript 之 this 全面解析](https://github.com/heyushuo/Blob/blob/master/JavaScript/26.JavaScript%E4%B9%8Bthis%E5%85%A8%E9%9D%A2%E8%A7%A3%E6%9E%90.md)
+
 [25.H5 跳转到原生页面,监听用户是否返回到 H5](https://github.com/heyushuo/Blob/blob/master/JavaScript/25.H5%E8%B7%B3%E8%BD%AC%E5%88%B0%E5%8E%9F%E7%94%9F%E9%A1%B5%E9%9D%A2%2C%E7%9B%91%E5%90%AC%E7%94%A8%E6%88%B7%E6%98%AF%E5%90%A6%E8%BF%94%E5%9B%9E%E5%88%B0H5.md)
 
 [24.Vue 实现跑马灯效果以及封装为组件发布](https://github.com/heyushuo/Blob/blob/master/JavaScript/24.Vue%E5%AE%9E%E7%8E%B0%E8%B7%91%E9%A9%AC%E7%81%AF%E6%95%88%E6%9E%9C%E4%BB%A5%E5%8F%8A%E5%B0%81%E8%A3%85%E4%B8%BA%E7%BB%84%E4%BB%B6%E5%8F%91%E5%B8%83.md)
