@@ -1,3 +1,6 @@
+### [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(下)](https://juejin.im/post/5cc26dfef265da037b611738)
+### [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(中)](https://juejin.im/post/5c92f499f265da612647b754)
+### [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/5c64d15d6fb9a049d37f9c20)
 ### [前端面经总结——富途笔试+三轮技术面+HR 面 ](https://github.com/easonhuang123/blog/issues/19)
 
 ### [前端面经总结——字节跳动头条笔试一面+二面](https://github.com/easonhuang123/blog/issues/18)
