@@ -1,3 +1,43 @@
+### 各大公司面试信息
+
+> 声明：⚠️ 其中P级别的划分是结合自己对题目难度的理解，以及作者本人的陈述定义的。
+这部分是很难定义的，但是为了给出大致的边界，我这里还是做了分类。如有不妥，请多多包涵。
+
+- 阿里巴巴
+ 1. P5
+   - [面试分享：2018阿里巴巴前端面试总结(题目+答案)](https://juejin.im/entry/5a968ba56fb9a06340524128)
+ 2. P6
+   - [前端面试分享: 两年经验社招-阿里巴巴](https://segmentfault.com/a/1190000013538920)
+   - [面试分享：一年经验初探阿里巴巴前端社招](https://github.com/jawil/blog/issues/22)
+   - [阿里巴巴前端面试分享-社招（p6）](https://zhuanlan.zhihu.com/p/57131643)
+
+- 头条
+ 1. P4
+   - [今日头条前端面试-2018.03.23](https://blog.csdn.net/csu_passer/article/details/79668028)
+   - [记一次字节跳动前端面试，已拿offer](https://www.nowcoder.com/discuss/177482)
+   - [字节跳动 前端 三面面经](https://www.nowcoder.com/discuss/171705)
+   - [2019 字节跳动春招 web前端面试题 一面](https://www.nowcoder.com/discuss/170779)
+   - [字节跳动前端实习一面二面HR面面经](https://www.nowcoder.com/discuss/170549)
+   - [头条前端一面](https://www.nowcoder.com/discuss/171320)
+   - [记一次今日头条前端面试](https://www.imooc.com/article/40112)
+ 2. P5
+   - [前端面试-今日头条](https://github.com/linghuam/myblog/blob/master/source/_others/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95-%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1.md)
+   - [字节跳动春招前端三轮面经](https://www.nowcoder.com/discuss/167553)
+   - [今日头条前端三轮面试面经](https://www.nowcoder.com/discuss/105513)
+ 3. P6 
+   - [字节跳动，前端面试](https://www.nowcoder.com/discuss/174632)
+
+### HR
+
+到了这一步说明技术上没有什么问题了，接下来就是 HR 看你这个人价值观是否符合了。
+
+> 草稿
+
+[和 HR 沟通](./topics/hr/hr.md)
+
+### 模拟面试
+
+- [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 ### [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(下)](https://juejin.im/post/5cc26dfef265da037b611738)
 ### [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(中)](https://juejin.im/post/5c92f499f265da612647b754)
 ### [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/5c64d15d6fb9a049d37f9c20)
