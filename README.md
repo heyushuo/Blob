@@ -13,6 +13,10 @@
 - [JavaScript 数据结构之栈](https://github.com/heyushuo/Blob/issues/28)
 - [JavaScript 数据结构之队列](https://github.com/heyushuo/Blob/issues/29)
 - [栈和队列之间的转换](https://github.com/heyushuo/Blob/issues/30)
+- [JavaScript数据结构之链表](https://github.com/heyushuo/Blob/issues/31)
+- [JavaScript数据结构之字典](https://github.com/heyushuo/Blob/issues/32)
+- [JavaScript数据结构之集合](https://github.com/heyushuo/Blob/issues/33)
+- [JavaScript数据结构之二叉树](https://github.com/heyushuo/Blob/issues/34)
 
 ## JavaScirpt
 
