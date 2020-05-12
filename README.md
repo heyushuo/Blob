@@ -7,7 +7,7 @@
 - [vue 项目请求接口区分开发环境和生产环境下测试域名和正式域名](https://github.com/heyushuo/Blob/issues/18)
 - [如何将自己的 Vue 组件发布为 npm 包](https://github.com/heyushuo/Blob/issues/19)
 - [Vue 实现跑马灯效果以及封装为组件发布](https://github.com/heyushuo/Blob/issues/20)
-- [记录vue-cli项目升级到webpack4一步一步踩坑以及解决](https://github.com/heyushuo/Blob/issues/35)
+- [记录vue-cli项目升级到webpack4以及升级到Babel7一步一步踩坑以及解决](https://github.com/heyushuo/Blob/issues/35)
 
 ## JavaScript 数据结构和算法
 
