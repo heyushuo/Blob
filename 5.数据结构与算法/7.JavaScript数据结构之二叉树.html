@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+</body>
+
+</html>
+<script>
+  //节点类
+  class Node {
+    constructor(key) {
+      this.key = key; //节点的值
+      this.left = null;
+      this.right = null;
+    }
+  }
+  class BinarySearchTree {
+    constructor() {
+      this.root = null;
+    }
+    // 向树中插入一个节点
+    insert(key) {
+      let newNode = new Node(key);
+      if (this.root == null) {
+        this.root = newNode;
+      } else {
+        this.insertNode(this.root, newNode);
+      }
+    }
+    //辅助方法
+    insertNode(node, newNode) {
+      if (newNode.key < node.key) {
+        //值小于要插入的,那这个插入的在node的左节点
+        if (node.left === null) {
+          node.left = newNode;
+        } else {
+          this.insertNode(node.left, newNode);
+        }
+      } else {
+        if (node.right === null) {
+          node.right = newNode;
+        } else {
+          this.insertNode(node.right, newNode)
+        }
+      }
+    }
+    // 通过中序遍历方式遍历树中的所有节点
+    inOrderTraverse(callback) {
+      this.inOrderTraverseNode(this.root, callback);
+    }
+    inOrderTraverseNode(node, callback) {
+      if (node !== null) {
+        this.inOrderTraverseNode(node.left, callback);
+        callback(node.key);
+        this.inOrderTraverseNode(node.right, callback);
+      }
+    };
+    // 通过先序遍历方式遍历树中的所有节点
+    preOrderTraverse(callback) {
+      this.preOrderTraverseNode(this.root, callback);
+    };
+    preOrderTraverseNode(node, callback) {
+      if (node !== null) {
+        callback(node.key); //{1}
+        this.preOrderTraverseNode(node.left, callback); //{2}
+        this.preOrderTraverseNode(node.right, callback); //{3}
+      }
+    };
+    // 通过后序遍历方式遍历树中的所有节点
+    postOrderTraverse(callback) {
+      this.postOrderTraverseNode(this.root, callback);
+    };
+    postOrderTraverseNode(node, callback) {
+      if (node !== null) {
+        this.postOrderTraverseNode(node.left, callback);
+        this.postOrderTraverseNode(node.right, callback);
+        callback(node.key);
+      }
+    };
+    // 在树中查找一个节点
+    search(key) {}
+    // 返回树中的最小节点
+    min() {
+      return this.minNode(this.root)
+    }
+    minNode(node) {
+      if (node) {
+        while (node && node.left != null) {
+          node = node.left;
+        }
+        return node.key;
+      }
+      return null
+    }
+    // 返回树中的最大节点
+    max() {
+      return this.maxNode(this.root)
+    }
+    maxNode(node) {
+      if (node) {
+        while (node && node.right != null) {
+          node = node.right
+        }
+        return node.key
+      }
+      return null
+    }
+    // 从树中移除一个节点
+    remove(key) {
+      this.root = this.removeNode(this.root, key);
+    };
+    removeNode(node, key) {
+      if (node === null) {
+        return null;
+      }
+      if (key < node.key) {
+        node.left = this.removeNode(node.left, key);
+        return node;
+      } else if (key > node.key) {
+        node.right = this.removeNode(node.right, key);
+        return node; //{8}
+      } else {
+        //值等于node.key
+        //第一种情况如果此时没有子节点,直接让node执行null就可以
+        if (node.left === null && node.right === null) {
+          node = null;
+          return node;
+        }
+        //第二种情况只有一个子节点的节点,把node指向子节点(相当于node变成子节点)
+        if (node.left === null) {
+          node = node.right;
+          return node;
+        } else if (node.right === null) {
+          node = node.left;
+          return node;
+        }
+        //第三种情况——一个有两个子节点的节点
+        var aux = this.findMinNode(node.right);
+        node.key = aux.key;
+        node.right = this.removeNode(node.right, aux.key);
+        return node;
+      }
+    };
+    findMinNode(node) {
+      if (node) {
+        while (node && node.left != null) {
+          node = node.left;
+        }
+        return node;
+      }
+      return null
+    }
+  }
+  var tree = new BinarySearchTree();
+  tree.insert(9)
+  tree.insert(6)
+  tree.insert(10)
+  tree.insert(4)
+  tree.insert(8)
+  tree.insert(12)
+  console.log(tree);
+  tree.inOrderTraverse(function(value) {
+    console.log(value);
+  })
+  console.log('-------------------');
+  tree.preOrderTraverse(function(value) {
+    console.log(value);
+  })
+  console.log('-------------------');
+  tree.postOrderTraverse(function(value) {
+    console.log(value);
+  })
+  console.log('-------------------');
+  // console.log(tree.min());
+  // console.log(tree.max());
+  console.log(tree.remove(6));
+  console.log(tree);
+  // console.log(tree.remove(4));
+  // console.log(tree);
+  // console.log(tree.remove(8));
+  // console.log(tree);
+  // console.log(tree.remove(10));
+  // console.log(tree);
+</script>

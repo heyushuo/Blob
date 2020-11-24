@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>动态规划</title>
+</head>
+
+<body></body>
+
+</html>
+<script>
+  // https://www.cnblogs.com/Skyar/p/5955013.html
+  //最长公共子串暴力解法
+  function commonStr(str1, str2) {
+    var maxLength = 0; //设置一个最大长度变量
+    //用来保存连续最大长度的时候i和j分别是从几开始的
+    var start1 = 0;
+    var start2 = 0;
+    for (let i = 0; i < str1.length; i++) {
+      for (let j = 0; j < str2.length; j++) {
+        //用两个变量接管i和j
+        var m = i;
+        var n = j;
+        var length = 0; //相同串的长度
+        while (m < str1.length && n < str2.length) {
+          if (str1[m] != str2[n]) {
+            // 跳出循环
+            break;
+          }
+          //如果相等,就需要接着判断他们第二个是否相等
+          m++;
+          n++;
+          length++;
+        }
+        //判断最大连续长度以及从两个字符串那个索引开始的
+        if (length > maxLength) {
+          maxLength = length;
+          start1 = i;
+          start2 = j;
+        }
+      }
+    }
+    return {
+      maxLength: maxLength, //最大长度
+      commonStr: str1.slice(start1, start1 + maxLength) //最长公共串
+    };
+  }
+  console.log(commonStr("ab123ccsd", "abcc123"));
+</script>
+<script>
+  // https://segmentfault.com/a/1190000007963594
+  //使用动态规划
+  // 复杂问题分解成更小的子问题,用数组来储存这些小问题的解
+  function lcs(str1, str2) {
+    var maxLength = 0; //相同的最大长度
+    var index = 0; //开始的索引
+    //需要创建一个二维数组来储存分解问题的解
+    //创建数组并填充为0
+    //填充二维数组的时候多加了一行和一列,是为了防止比较第一个的时候两个就想等
+    var arr = Array.from({ length: str1.length + 1 });
+    arr.forEach((item, index) => {
+      arr[index] = Array.from({ length: str2.length + 1 }).fill(0);
+    });
+
+    //开始比较
+    for (let i = 0; i <= str1.length; i++) {
+      for (let j = 0; j <= str2.length; j++) {
+        if (i == 0 || j == 0) {
+          arr[i][j] = 0;
+        } else {
+          if (str1[i - 1] == str2[j - 1]) {
+            //计算连续相等的长度
+            arr[i][j] = arr[i - 1][j - 1] + 1;
+          } else {
+            arr[i][j] = 0;
+          }
+          if (maxLength < arr[i][j]) {
+            maxLength = arr[i][j];
+            index = i; //i是最大长度是的i
+          }
+        }
+      }
+    }
+    console.log(arr);
+    console.log(maxLength);
+    console.log(index);
+
+    return {
+      maxLength: maxLength, //最大长度
+      commonStr: str1.slice(index - maxLength, index) //最长公共串
+    };
+  }
+  console.log(lcs("12312asdfasfd", "sadfsdf123"));
+</script>
+<script>
+  function max(a, b) {
+    return (a > b) ? a : b;
+  }
+
+  function knapsack(capacity, size, value, n) {
+    if (n == 0 || capacity == 0) {
+      return 0;
+    }
+    if (size[n - 1] > capacity) {
+      return knapsack(capacity, size, value, n - 1);
+    } else {
+      return max(value[n - 1] +
+        knapsack(capacity - size[n - 1], size, value, n - 1),
+        knapsack(capacity, size, value, n - 1));
+    }
+  }
+  var value = [4, 5, 10, 11, 13];
+  var size = [3, 4, 7, 8, 9];
+  var capacity = 16;
+  var n = 5;
+  console.log('--------------------------------------------------')
+  console.log(knapsack(capacity, size, value, n));
+</script>

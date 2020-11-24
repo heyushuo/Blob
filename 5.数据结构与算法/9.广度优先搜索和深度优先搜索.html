@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <a href="https://juejin.im/post/5ae43587518825673123f7d9">js版本的（ 广、 深） 度优先搜索</a>
+    <img src="https://raw.githubusercontent.com/heyushuo/image/master/16c08ea871f0739f.gif" alt="">
+  </div>
+</body>
+
+</html>
+<script>
+  // 深度优先搜索
+  // //请使用 JavaScript 编写一个树的深度优先遍历函数（节点最深的最先访问到，依次类推），满足以下测试用例：
+  // 假设树的结构如下
+  const tree = [{
+    id: 1,
+    name: '张三',
+    children: [{
+      id: 2,
+      name: '李四',
+      children: [{
+        id: 5,
+        name: '张五'
+      }]
+    }]
+  }, {
+    id: 6,
+    name: '玛丽'
+  }]
+  // // 测试用例：
+  // // 1. 生成一颗新树，将所有节点的id，加1
+  // console.log(treeMap(tree, node => {
+  //   let newNode = { ...node }
+  //   newNode.id = node.id + 1
+  //   return newNode
+  // }))
+  // // 打印的新树，应该与tree的结构一致，只是每个id自增1，老的tree，应该没有任何改动
+  // // 2. 打印每个节点的id
+  // treeMap(tree, node => {
+  //   console.log(node.id)
+  //   return node
+  // });
+  // // 应打印顺序应该是： 5，2，1，6
+  // // 3. 对于非法输入，应直接返回第一个入参
+  // console.log(treeMap(null)) // 输出null
+  // console.log(treeMap(tree, true /*不是函数*/ )) //输出tree
+  // function treeMap(tree, fn) {
+  //   var quene = tree;
+  //   var result = [];
+  //   while (quene.length) {
+  //     var node = quene[0];
+  //     // result.unshift(node)
+  //     if (node.children) {
+  //       var len = node.children && node.children.length;
+  //       for (let i = len - 1; i >= 0; i--) {
+  //         quene.unshift(node.children[i])
+  //       }
+  //       delete node.children
+  //     } else if (!node.children) {
+  //       result.push(fn(quene.shift()))
+  //     }
+  //   }
+  //   return result;
+  // }
+  // function treeMap(tree, f) {
+  //   const newtree = [];
+  //   if (!(f instanceof Function)) {
+  //     return tree;
+  //   }
+  //   for (let item of tree) {
+  //     //数组的一项
+  //     const obj = Object.assign({}, item) //这里要注意克隆一下节点，不然会影响老树的结构
+  //     if (item.hasOwnProperty("children")) {
+  //       //如果有children
+  //       // 重新定义obj的children
+  //       obj.children = treeMap(item.children, f)
+  //     }
+  //     // 如果没有children直接push进来
+  //     newtree.push(f(obj))
+  //   }
+  //   return newtree
+  // }
+  // 使用闭包实现以下(无法实现用闭包)
+  // function treeMap(tree, fn) {
+  //   var newObj = [];
+
+  //   function dfs(tree, fn) {
+  //     for (let i = 0; i < tree.length; i++) {
+  //       const ele = tree[i];
+  //       if (ele.children) {
+  //         dfs(ele.children, fn)
+  //       }
+  //       newObj.push(fn(ele))
+  //     }
+  //   }
+  //   dfs(tree, fn)
+  //   return newObj;
+  // }
+  treeMap(tree, node => {
+    console.log(node.id)
+    return node
+  });
+  console.log(treeMap(tree, node => {
+    let newNode = { ...node }
+    newNode.id = node.id + 1
+    return newNode
+  }))
+</script>
+<script>
+  const root = [{
+    id: '1',
+    children: [{
+      id: '1-1',
+      children: [{ id: '1-1-1' }, { id: '1-1-2' }],
+    }, {
+      id: '1-2',
+      children: [{ id: '1-2-1' }, { id: '1-2-2' }],
+    }, ],
+  }, {
+    id: '2',
+    children: [{
+      id: '2-1',
+      children: [{ id: '2-1-1' }, { id: '2-1-2' }],
+    }, {
+      id: '2-2',
+      children: [{ id: '2-2-1' }, { id: '2-2-2' }],
+    }, ],
+  }, {
+    id: '3',
+    children: [{
+      id: '3-1',
+      children: [{ id: '3-1-1' }, { id: '3-1-2' }],
+    }, {
+      id: '3-2',
+      children: [{ id: '3-2-1' }, { id: '3-2-2' }],
+    }, ],
+  }, ];
+  const depthFirstSearchWithRecursive = source => {
+    var result = []; // 存放结果的数组
+    // 遍历数组
+    source.forEach(element => {
+      // 将当前节点 id 存放进结果
+      result.push(element.id);
+      // 如果当前节点有子节点，则递归调用
+      if (element.children && element.children.length > 0) {
+        result = result.concat(depthFirstSearchWithRecursive(element.children))
+      }
+    });
+    return result;
+  };
+  // const depthFirstSearchWithRecursive = source => {
+  //   const result = []; // 存放结果的数组
+  //   // 递归方法
+  //   const dfs = data => {
+  //     // 遍历数组
+  //     data.forEach(element => {
+  //       // 将当前节点 id 存放进结果
+  //       result.push(element.id);
+  //       // 如果当前节点有子节点，则递归调用
+  //       if (element.children && element.children.length > 0) {
+  //         dfs(element.children);
+  //       }
+  //     });
+  //   };
+  //   // 开始搜索 source就是root
+  //   dfs(source);
+  //   return result;
+  // };
+  console.log(depthFirstSearchWithRecursive(root));
+</script>
